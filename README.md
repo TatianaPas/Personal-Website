@@ -8,7 +8,7 @@ https://tatianapas.github.io/personal-website/
 
 ![image](https://user-images.githubusercontent.com/81549043/181465322-71425376-2449-4838-b28a-1902bc6a9354.png)
 
-![image](https://user-images.githubusercontent.com/81549043/181419441-4d1cad92-3256-495b-be62-d357ae6f0f18.png)
+![image](https://user-images.githubusercontent.com/81549043/181467344-696bbd34-d729-4256-b88a-a49e73f1c1ff.png)
 
 ![image](https://user-images.githubusercontent.com/81549043/181419476-7003143c-01bd-4102-abd4-4be4ac8e3017.png)
 
