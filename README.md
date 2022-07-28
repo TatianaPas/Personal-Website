@@ -2,6 +2,10 @@
 Website created as a homework -a Web CV.
 Used YouTube tutorials to create designs.
 Website is fully responsive and has all working links.
+
+https://tatianapas.github.io/personal-website/
+
+
 ![image](https://user-images.githubusercontent.com/81549043/181419394-c3e2a8f3-b25a-4788-a9ff-68cb6266d1ff.png)
 
 ![image](https://user-images.githubusercontent.com/81549043/181419441-4d1cad92-3256-495b-be62-d357ae6f0f18.png)
