@@ -446,6 +446,8 @@ footer {
     .soft {
         grid-column: 2 span;
     }
+}
+@media(max-width:1700px){
     .project-container {
         grid-template-columns: repeat(2, 1fr);
     }
