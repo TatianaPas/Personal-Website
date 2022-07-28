@@ -1,298 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <!--Navbar-->
-    <nav class="navbar">
-        <h1 class="brand">Personal Website</h1>
-        <div class="toggle-btn active">
-            <span></span>
-            <span></span>
+  <!--Navbar-->
+  <nav class="navbar">
+    <h1 class="brand">Personal Website</h1>
+    <div class="toggle-btn active">
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="links-container">
+      <li class="links-item"><a href="#home-section" class="link active">Home</a></li>
+      <li class="links-item"><a href="#skills-section" class="link">Skills</a></li>
+      <li class="links-item"><a href="#project-section" class="link">Projects</a></li>
+      <li class="links-item"><a href="#education-section" class="link">Education</a></li>
+      <li class="links-item"><a href="#work-section" class="link">Work Experience</a></li>
+      <li class="links-item"><a href="#contact-section" class="link">Contact</a></li>
+    </ul>
+
+  </nav>
+
+  <!--Home section-->
+  <section class="home" id="home-section">
+    <div class="hero-content">
+      <h1 class="hero-heading"><span class="highlight">Hello, </span>I am Tatiana</h1>
+      <p class="profession"> Secod year <span class="highlight"><b>Software and Web development</b> </span> student</p>
+      <p class="info">
+        I am looking for an internship opportunity as a Back end/ Full Stack Developer.
+        I feel passionate about good design and the seamless work of all functions. I enjoy
+        working on the code, especially challenging tasks and finding problem solutions.
+      </p>
+      <a class="btn" href="#contact-section">Contact Details</a>
+      <p class="location"><i class="fa-solid fa-location-dot"></i> Auckland, New Zealand</p>
+    </div>
+    <img src="images/profile2.png" class="image" alt="photo" width="500px" />
+
+  </section>
+
+  <!--Skills section-->
+  <section class="skills" id="skills-section">
+    <h2 class="heading">Languages and Framework I know</h2>
+    <div class="separator"></div>
+    <div class="skill-container">
+      <div class="skill-card" style="--bg:#f06529">
+        <p class="skill">HTML</p>
+      </div>
+      <div class="skill-card" style="--bg:#d81b60">
+        <p class="skill">CSS</p>
+      </div>
+      <div class="skill-card" style="--bg:#8e24aa">
+        <p class="skill">JavaScript</p>
+      </div>
+      <div class="skill-card" style="--bg:#5e35b1">
+        <p class="skill">C#</p>
+      </div>
+      <div class="skill-card large" style="--bg:#005b4f">
+        <p class="skill">SQL Server</p>
+      </div>
+      <div class="skill-card large" style="--bg:#00701a">
+        <p class="skill">Entity Framework</p>
+      </div>
+      <div class="skill-card" style="--bg:#3949ab">
+        <p class="skill">WPF</p>
+      </div>
+      <div class="skill-card" style="--bg:#1e88e5">
+        <p class="skill">Python</p>
+      </div>
+      <div class="skill-card" style="--bg:#006db3">
+        <p class="skill">Java</p>
+      </div>
+      <div class="skill-card" style="--bg:#b91400">
+        <p class="skill">Asp.Net</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Soft Skills section-->
+  <section class="skills" id="skills-section">
+    <h2 class="heading">Soft Skills</h2>
+    <div class="separator"></div>
+    <div class="skill-container">
+      <div class="skill-card soft" style="--bg:#f06529">
+        <p class="skill">Goal-driven</p>
+      </div>
+      <div class="skill-card soft" style="--bg:#d81b60">
+        <p class="skill">Teamwork</p>
+      </div>
+      <div class="skill-card soft" style="--bg:#8e24aa">
+        <p class="skill">Collaboration</p>
+      </div>
+      <div class="skill-card soft" style="--bg:#5e35b1">
+        <p class="skill">Self-Motivation</p>
+      </div>
+      <div class="skill-card soft" style="--bg:#005b4f">
+        <p class="skill">Active Listening</p>
+      </div>
+      <div class="skill-card soft" style="--bg:#00701a">
+        <p class="skill">Problem Solving</p>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!---Projects section-->
+  <section class="project" id="project-section">
+    <h2 class="heading">Projects</h2>
+    <div class="separator"></div>
+
+
+    <div class="project-container">
+      <div class="project-card">
+        <a href="https://tapas-portfolio.com/">
+          <img src="images/bodymind2.png" alt="" />
+          <div class="content">
+            <h2 class="project-name">Front End Website</h2>
+            <p class="project-info">6-page web applicaiton design including contact form</p>
+            <span class="tags">HTML, CSS, JavaScript</span>
+          </div>
+        </a>
+      </div>
+
+
+      <div class="project-card">
+        <a href="https://thefadecreators.com/">
+          <img src="images/fade1.png" alt="" />
+          <div class="content">
+            <h2 class="project-name">WordPress Website</h2>
+            <p class="project-info">Fully functioning website for the Barbershop business</p>
+            <span class="tags">WordPress</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card">
+        <a href="https://github.com/TatianaPas/Android-assignment">
+          <img src="images/ui1.png" alt="" />
+          <div class="content">
+            <h2 class="project-name">UX/UI design</h2>
+            <p class="project-info">Android app design for plants project</p>
+            <span class="tags">UI/UX Android</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card">
+        <a href="https://github.com/TatianaPas/OOP-assignment">
+          <img src="images/oop1.png" alt="" />
+          <div class="content">
+            <h2 class="project-name">Java Application</h2>
+            <p class="project-info">Rental application using Java language</p>
+            <span class="tags">Java</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card">
+        <a href="https://github.com/TatianaPas/Admin-Dashboard-for-Truck-Rental">
+          <img src="images/movers2.png" alt="" />
+          <div class="content">
+            <h2 class="project-name">C#/ Database app</h2>
+            <p class="project-info">Rental applicaiton using C#, SQL server database</p>
+            <span class="tags">C# SQL Server</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!---Education section-->
+  <section class="education" id="education-section">
+    <h2 class="heading">Education</h2>
+    <div class="separator"></div>
+    <div class="education-content">
+      <div class="education-box">
+        <h1 class="institute">Manukau Insitute of Technology</h1>
+        <h2 class="degree">Bachelor of Digital Technologies (Level 7)</h2>
+        <h2 class="major">Major:<span class="highlight"> Software and Web Development</span></h2>
+      </div>
+      <div class="education-box">
+        <h2 class="degree"> Auckland 2021-current</h2>
+        <h3 class="graduation"><i>Expected graduation 2023</i></h3>
+      </div>
+      <div class="education-box">
+        <h1 class="institute">Manukau Insitute of Technology</h1>
+        <h2 class="degree">New Zealand Certificate in Information TechnologyEssentials (Level 4)</h2>
+      </div>
+      <div class="education-box">
+        <h2 class="degree"> Auckland 2020</h2>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!---Work section-->
+  <section class="work" id="work-section">
+    <h2 class="heading">Work Experience</h2>
+    <div class="separator"></div>
+    <div class="work-container">
+      <div class="work-card">
+        <div class="work-body">
+          <h1 class="work-title">Volunteer, Web Development</h1>
+          <h2 class="company-name">Clinic by Nature</h2>
+          <h1 class="degree">December 2021</h1>
+          <p class="work-details">
+            Discussed and suggested changes for the website's design on mobile devices and
+            implemented them—improved website design responsiveness.
+          </p>
+          <br />
+          <p class="key-tools">Key tools/skills:</p>
+          <ul>
+            <li>Collaboration</li>
+            <li>Self-motivation</li>
+            <li>WordPress</li>
+          </ul>
         </div>
-        <ul class="links-container">
-            <li class="links-item"><a href="#home-section" class="link active">Home</a></li>
-            <li class="links-item"><a href="#skills-section" class="link">Skills</a></li>
-            <li class="links-item"><a href="#project-section" class="link">Projects</a></li>
-            <li class="links-item"><a href="#education-section" class="link">Education</a></li>
-            <li class="links-item"><a href="#work-section" class="link">Work Experience</a></li>
-            <li class="links-item"><a href="#contact-section" class="link">Contact</a></li>
-        </ul>
+      </div>
 
-    </nav>
-
-    <!--Home section-->
-    <section class="home" id="home-section">
-        <div class="hero-content">
-            <h1 class="hero-heading"><span class="highlight">Hello, </span>I am Tatiana</h1>
-            <p class="profession"> Secod year <span class="highlight"><b>Software and Web development</b> </span> student</p>
-            <p class="info">
-                I am looking for an internship opportunity as a Back end/ Full Stack Developer.
-                I feel passionate about good design and the seamless work of all functions. I enjoy
-                working on the code, especially challenging tasks and finding problem solutions.
-            </p>
-            <a class="btn" href="#contact-section">Contact Details</a>
+      <div class="work-card">
+        <div class="work-body">
+          <h1 class="work-title">Support worker</h1>
+          <h2 class="company-name">NZCare Group Limited</h2>
+          <h1 class="degree">2019-current</h1>
+          <p class="work-details">
+            Working as a team of support workers to assist people with disabilities in their daily activities
+            with maximum independence. Helping people to achieve their goals and dreams,
+            collaborating with non-verbal people, and advocating for them. Creating activities for people
+            with different needs. Completing daily management reports
+          </p>
+          <br />
+          <p class="key-tools">Key tools/skills:</p>
+          <ul>
+            <li>Collaboration</li>
+            <li>Teamwork</li>
+            <li>Writing and Presentation</li>
+            <li>Active listening</li>
+          </ul>
         </div>
-        <img src="images/profile2.png" class="image" alt="photo" width="500px" />
+      </div>
 
-    </section>
-
-    <!--Skills section-->
-    <section class="skills" id="skills-section">
-        <h2 class="heading">Languages and Framework I know</h2>
-        <div class="separator"></div>
-        <div class="skill-container">
-            <div class="skill-card" style="--bg:#f06529">
-                <p class="skill">HTML</p>
-            </div>
-            <div class="skill-card" style="--bg:#d81b60">
-                <p class="skill">CSS</p>
-            </div>
-            <div class="skill-card" style="--bg:#8e24aa">
-                <p class="skill">JavaScript</p>
-            </div>
-            <div class="skill-card" style="--bg:#5e35b1">
-                <p class="skill">C#</p>
-            </div>
-            <div class="skill-card large" style="--bg:#005b4f">
-                <p class="skill">SQL Server</p>
-            </div>
-            <div class="skill-card large" style="--bg:#00701a">
-                <p class="skill">Entity Framework</p>
-            </div>
-            <div class="skill-card" style="--bg:#3949ab">
-                <p class="skill">WPF</p>
-            </div>
-            <div class="skill-card" style="--bg:#1e88e5">
-                <p class="skill">Python</p>
-            </div>
-            <div class="skill-card" style="--bg:#006db3">
-                <p class="skill">Java</p>
-            </div>
-            <div class="skill-card" style="--bg:#b91400">
-                <p class="skill">Asp.Net</p>
-            </div>
-
+      <div class="work-card">
+        <div class="work-body">
+          <h1 class="work-title">Event Assistant</h1>
+          <h2 class="company-name">Sidekicker New Zealand Limited</h2>
+          <h1 class="degree">2018-current</h1>
+          <p class="work-details">
+            Providing high-standard service at various events and functions across Auckland. Working in
+            a high-speed environment serving clients with beverages, and maintaining the cleanliness of
+            the working area.
+          </p>
+          <br />
+          <p class="key-tools">Key tools/skills:</p>
+          <ul>
+            <li>Collaboration</li>
+            <li>Teamwork</li>
+            <li>Work under pressure</li>
+          </ul>
         </div>
-    </section>
-
-    <!--Soft Skills section-->
-    <section class="skills" id="skills-section">
-        <h2 class="heading">Soft Skills</h2>
-        <div class="separator"></div>
-        <div class="skill-container">
-            <div class="skill-card soft" style="--bg:#f06529">
-                <p class="skill">Goal-driven</p>
-            </div>
-            <div class="skill-card soft" style="--bg:#d81b60">
-                <p class="skill">Teamwork</p>
-            </div>
-            <div class="skill-card soft" style="--bg:#8e24aa">
-                <p class="skill">Collaboration</p>
-            </div>
-            <div class="skill-card soft" style="--bg:#5e35b1">
-                <p class="skill">Self-Motivation</p>
-            </div>
-            <div class="skill-card soft" style="--bg:#005b4f">
-                <p class="skill">Active Listening</p>
-            </div>
-            <div class="skill-card soft" style="--bg:#00701a">
-                <p class="skill">Problem Solving</p>
-            </div>
-       
-
-        </div>
-    </section>
-
-    <!---Projects section-->
-    <section class="project" id="project-section">
-        <h2 class="heading">Projects</h2>
-        <div class="separator"></div>
+      </div>
+    </div>
 
 
-        <div class="project-container">
-            <div class="project-card">
-                <a href="https://tapas-portfolio.com/">
-                    <img src="images/bodymind2.png" alt="" />
-                    <div class="content">
-                        <h2 class="project-name">Front End Website</h2>
-                        <p class="project-info">6-page web applicaiton design including contact form</p>
-                        <span class="tags">HTML, CSS, JavaScript</span>
-                    </div>
-                </a>
-            </div>
+  </section>
 
+  <!---Contact section-->
+  <section class="contact" id="contact-section">
+    <h2 class="heading">Contact me</h2>
+    <div class="separator"></div>
+    <div class="social-icons">
+      <a href="https://github.com/TatianaPAs">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="mailto: tatjana.pasechnik@gmail.com">
+        <i class="fa-solid fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/tatiana-pasechnik-b77282211/">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+  </section>
 
-            <div class="project-card">
-                <a href="https://thefadecreators.com/">
-                    <img src="images/fade1.png" alt="" />
-                    <div class="content">
-                        <h2 class="project-name">WordPress Website</h2>
-                        <p class="project-info">Fully functioning website for the Barbershop business</p>
-                        <span class="tags">WordPress</span>
-                    </div>
-                </a>
-            </div>
+  <footer>
+    <p>Made by Tatiana Pasechnik 2022</p>
+    <a class="footer-link" href="https://www.youtube.com/watch?v=MCJPHmh_8aQ&ab_channel=ModernWeb"> following YouTube tutorial from ModernWeb</a> <a class="footer-link" href="https://www.youtube.com/watch?v=oMC6gyTWtic&ab_channel=CarpoolVenom">and
+      CarpoolVenom</a>
+  </footer>
 
-            <div class="project-card">
-                <a href="https://github.com/TatianaPas/Android-assignment">
-                    <img src="images/ui1.png" alt="" />
-                    <div class="content">
-                        <h2 class="project-name">UX/UI design</h2>
-                        <p class="project-info">Android app design for plants project</p>
-                        <span class="tags">UI/UX Android</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="project-card">
-                <a href="https://github.com/TatianaPas/OOP-assignment">
-                    <img src="images/oop1.png" alt="" />
-                    <div class="content">
-                        <h2 class="project-name">Java Application</h2>
-                        <p class="project-info">Rental application using Java language</p>
-                        <span class="tags">Java</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="project-card">
-                <a href="https://github.com/TatianaPas/Admin-Dashboard-for-Truck-Rental">
-                    <img src="images/movers2.png" alt="" />
-                    <div class="content">
-                        <h2 class="project-name">C#/ Database app</h2>
-                        <p class="project-info">Rental applicaiton using C#, SQL server database</p>
-                        <span class="tags">C# SQL Server</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-        
-
-    </section>
-
-    <!---Education section-->
-    <section class="education" id="education-section">
-        <h2 class="heading">Education</h2>
-        <div class="separator"></div>
-        <div class="education-content">
-            <div class="education-box">
-                <h1 class="institute">Manukau Insitute of Technology</h1>
-                <h2 class="degree">Bachelor of Digital Technologies (Level 7)</h2>
-                <h2 class="major">Major:<span class="highlight"> Software and Web Development</span></h2>
-            </div>
-            <div class="education-box">
-                <h2 class="degree"> Auckland 2021-current</h2>
-                <h3 class="graduation"><i>Expected graduation 2023</i></h3>
-            </div>
-            <div class="education-box">
-                <h1 class="institute">Manukau Insitute of Technology</h1>
-                <h2 class="degree">New Zealand Certificate in Information TechnologyEssentials (Level 4)</h2>
-            </div>
-            <div class="education-box">
-                <h2 class="degree"> Auckland 2020</h2>
-            </div>
-        </div>
-
-
-    </section>
-
-    <!---Work section-->
-    <section class="work" id="work-section">
-        <h2 class="heading">Work Experience</h2>
-        <div class="separator"></div>
-        <div class="work-container">
-            <div class="work-card">
-                <div class="work-body">
-                    <h1 class="work-title">Volunteer, Web Development</h1>
-                    <h2 class="company-name">Clinic by Nature</h2>
-                    <h1 class="degree">December 2021</h1>
-                    <p class="work-details">
-                        Discussed and suggested changes for the website's design on mobile devices and
-                        implemented them—improved website design responsiveness.
-                    </p>
-                    <br />
-                    <p class="key-tools">Key tools/skills:</p>
-                    <ul>
-                        <li>Collaboration</li>
-                        <li>Self-motivation</li>
-                        <li>WordPress</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="work-card">
-                <div class="work-body">
-                    <h1 class="work-title">Support worker</h1>
-                    <h2 class="company-name">NZCare Group Limited</h2>
-                    <h1 class="degree">2019-current</h1>
-                    <p class="work-details">
-                        Working as a team of support workers to assist people with disabilities in their daily activities
-                        with maximum independence. Helping people to achieve their goals and dreams,
-                        collaborating with non-verbal people, and advocating for them. Creating activities for people
-                        with different needs. Completing daily management reports
-                    </p>
-                    <br />
-                    <p class="key-tools">Key tools/skills:</p>
-                    <ul>
-                        <li>Collaboration</li>
-                        <li>Teamwork</li>
-                        <li>Writing and Presentation</li>
-                        <li>Active listening</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="work-card">
-                <div class="work-body">
-                    <h1 class="work-title">Event Assistant</h1>
-                    <h2 class="company-name">Sidekicker New Zealand Limited</h2>
-                    <h1 class="degree">2018-current</h1>
-                    <p class="work-details">
-                        Providing high-standard service at various events and functions across Auckland. Working in
-                        a high-speed environment serving clients with beverages, and maintaining the cleanliness of
-                        the working area.
-                    </p>
-                    <br />
-                    <p class="key-tools">Key tools/skills:</p>
-                    <ul>
-                        <li>Collaboration</li>
-                        <li>Teamwork</li>
-                        <li>Work under pressure</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-
-    <!---Contact section-->
-    <section class="contact" id="contact-section">
-        <h2 class="heading">Contact me</h2>
-        <div class="separator"></div>
-        <div class="social-icons">
-            <a href="https://github.com/TatianaPAs">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="mailto: tatjana.pasechnik@gmail.com">
-                <i class="fa-solid fa-envelope"></i></a>
-            <a href="https://www.linkedin.com/in/tatiana-pasechnik-b77282211/">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-</div>
-    </section>
-
-    <footer><p>Made by Tatiana Pasechnik 2022</p>
-    <a class="footer-link" href="https://www.youtube.com/watch?v=MCJPHmh_8aQ&ab_channel=ModernWeb"> following YouTube tutorial from ModernWeb</a> <a class="footer-link" href="https://www.youtube.com/watch?v=oMC6gyTWtic&ab_channel=CarpoolVenom">and 
-CarpoolVenom</a></footer>
-
-<script src="JavaScript.js"></script>
+  <script src="JavaScript.js"></script>
 </body>
+
 </html>
